@@ -1,28 +1,30 @@
-<!DOCTYPE html>
-<html lang="" xml:lang="">
-  <head>
-    <title>arya-class-5-sst</title>
-    <meta charset="utf-8" />
-    <meta name="author" content="Onkar Singh" />
-    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
-    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
-  </head>
-  <body>
-    <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# arya-class-5-sst
-## Arya Singh
-### Onkar Singh
-### Shri Ram Global School
-### 2021/11/20 (updated: 2022-02-12)
-
 ---
-
+title: "arya-class-5-sst"
+subtitle: "Arya Singh"
+author: "Onkar Singh"
+institute: "Shri Ram Global School"
+date: "2021/11/20 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
 class: inverse, center, middle
 
+```{r , echo=FALSE}
+library(xaringanthemer)
 
+style_duo(
+  primary_color = "#1F4257",
+  secondary_color = "#F97B64",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
 
 # Window to the World
 
@@ -249,8 +251,7 @@ The aims of the UN are
 ---
 
 
-
-```r
+```{r}
 # usethis::use_github_pages(branch = "main")
 ```
 
@@ -293,126 +294,157 @@ class: inverse, center, middle
 # Unit 3
 # Chapter 11: The Struggle for Independence
 
-    </textarea>
-<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false
-});
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function(d) {
-  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})(document);
+---
+## Summing up
 
-(function(d) {
-  var el = d.getElementsByClassName("remark-slides-area");
-  if (!el) return;
-  var slide, slides = slideshow.getSlides(), els = el[0].children;
-  for (var i = 1; i < slides.length; i++) {
-    slide = slides[i];
-    if (slide.properties.continued === "true" || slide.properties.count === "false") {
-      els[i - 1].className += ' has-continuation';
-    }
-  }
-  var s = d.createElement("style");
-  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
-  d.head.appendChild(s);
-})(document);
-// delete the temporary CSS (for displaying all slides initially) when the user
-// starts to view slides
-(function() {
-  var deleted = false;
-  slideshow.on('beforeShowSlide', function(slide) {
-    if (deleted) return;
-    var sheets = document.styleSheets, node;
-    for (var i = 0; i < sheets.length; i++) {
-      node = sheets[i].ownerNode;
-      if (node.dataset["target"] !== "print-only") continue;
-      node.parentNode.removeChild(node);
-    }
-    deleted = true;
-  });
-})();
-(function() {
-  "use strict"
-  // Replace <script> tags in slides area to make them executable
-  var scripts = document.querySelectorAll(
-    '.remark-slides-area .remark-slide-container script'
-  );
-  if (!scripts.length) return;
-  for (var i = 0; i < scripts.length; i++) {
-    var s = document.createElement('script');
-    var code = document.createTextNode(scripts[i].textContent);
-    s.appendChild(code);
-    var scriptAttrs = scripts[i].attributes;
-    for (var j = 0; j < scriptAttrs.length; j++) {
-      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
-    }
-    scripts[i].parentElement.replaceChild(s, scripts[i]);
-  }
-})();
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-// adds .remark-code-has-line-highlighted class to <pre> parent elements
-// of code chunks containing highlighted lines with class .remark-code-line-highlighted
-(function(d) {
-  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
-  const preParents = [];
-  const findPreParent = function(line, p = 0) {
-    if (p > 1) return null; // traverse up no further than grandparent
-    const el = line.parentElement;
-    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
-  };
+- Disapppointed by the British rule, a few educated Indians came forward to form the Indian National Congress in 1885. 
 
-  for (let line of hlines) {
-    let pre = findPreParent(line);
-    if (pre && !preParents.includes(pre)) preParents.push(pre);
-  }
-  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
-})(document);</script>
+- In the beginning, the Congress made moderate demands like letting Indians join the government. However, later some members of the Indian National Congress started demanding swaraj, or self-rule. 
 
-<script>
-slideshow._releaseMath = function(el) {
-  var i, text, code, codes = el.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
-  }
-};
-slideshow._releaseMath(document);
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>
+- To weaken the strength of the freedome struggle the British divided Bengal on the basis of religion. This led to Swadeshi Movement. 
+
+- Gandhiji returned from South Africa in 1915 and joined the freedom struggle. 
+
+- Gandhiji launched the Non-cooperation Movemenet in 1920. People boycotted British goods and students refused to attend schools and colleges. 
+
+- Gandhiji launched the Civil Disobedience Movement in 1930,with the Dandi March. 
+
+- The Quit India Movement of 1942 showed the world how the British were suppressing the Indians.
+
+
+---
+## Summing up contd....
+
+- World war II weakened the British.They were forced to leave India. 
+
+- Before they left, the British divided India into two countries-India and Pakistan-on the basis of religion.
+
+- India gained independence on 15 August 1947.
+
+
+## Exploring new worlds
+
+- swadeshi: things that are made in one's own country
+- swaraj: self-rule
+- patriotism: a strong love for, or attachment to, one's homeland. 
+- World War I: a war that took place between 1914 and 1918 involving many countries from Europe, North America and Asia, causing the deaths of about nine million people
+- satyagraha: a form of non-voilent protest in which truth is the main force
+- lathi-charge: to use lathis or sticks to hit people in a crowd, so as to scatter them
+-World War II: another war that took place between 1939 and 1945, involving the many countries around the world, resulting in the death of over 50 million people. 
+
+---
+## Fill in the blanks
+
+1. in 1905, the British partitioned _**Bengal**_ on the basis of _**religion**_. 
+
+2. _**Swadeshi**_ means made in one's own country. 
+
+
+3.World war I broke out in _**1914**_.
+
+4.Mahatma Gandhi come back to india from _**south Africa**_.He used  _** Satyagraha**_  to fight British.
+
+5.Gandhiji launched the _**Civil Disobedience**_ Movement eith the Dandi March.
+
+6.The leader of the Muslim League, _**Mohammad Ali Jinnah**_ demanded a separate state for the Muslims,to be called _**Pakistan**_.
+
+---
+## Choose the correct answer
+
+1. One of the members of the Indian National Congress who demande. 
+
+a. Gopal Krisha Gokhale
+
+**b. Bal Gangadhar Tilak**
+
+c. Bhagat Singh
+
+d. Dadabhai Naoroji
+
+
+2. Gandhiji came back to India in _____
+
+a. 1914
+
+**b. 1915**
+
+c. 1919
+
+d. 1930
+
+---
+
+3.The Swadeshi Movement led to____________;
+
+**a.people refuse to use British goods**
+
+b. the division of Bengal 
+
+c.Both 'a' and 'b'
+
+d.freedom from British rule
+
+4.People had gathered peacefully at Jalllianwalla Bagh to protest against the _____________.
+
+**a.Rowlatt Act**
+
+b.Government of Indian Act
+
+c.Partition of India into India and Pakistan
+
+d capture of Bhagat Singh.
+
+5. India because independence on _______.
+
+a.15 August 1945
+
+b. 26 January 1950
+
+**c. 15 August 1947**
+
+d.26 August 1945
+
+---
+## Aswer the following question in one or two sentence
+1.Who said “ Freedom is my birth right and I shall have it.”?
+
+Ans-Bal Gangadhar Tilak said “ Freedom is my birth right and I shall have it.”
+
+2.Why did British want to divide Bengal?
+
+Ans-To suppress the growing unity of Indians,Britishers decided to divide Bengal which was the main centre of nationalist movement.
+
+3.How did British treat India after World War I?
+
+Ans-Many Indian soldiers lost their lives in world war I while fighting for Britain. Despite this the British became harsher towards the Indians and imposed more taxes to recover their
+loss incurred in the war.
+
+4.How did Gandhiji returned to India after the freedom struggle?
+
+Ans-In 1915, Gandhi returned back to India from South Africa. Soon he became one of the main leaders of the Indian freedom struggle.Under his leadership,the freedom struggle
+reached to every nook and corner of India.
+
+---
+5.What was the Rowlatt Act? 
+
+Ans-The British passed the Rowlatt act in 1919.According to this act British officers were allowed to arrest anybody they suspected, without presenting the case in the court(Trial).
+
+6.What is the meaning of Satyagraha?
+
+Ans-Satyagraha is a form of non-violent protest in which truth is the main force.
+
+7.Why was the non cooperation movement withdrawn?
+
+Ans-In 1920, Gandhi announced a peaceful Non-cooperation movement but he withdrew the movement in 1922 as it turned violent in some places.
+
+8.What is Khadi ? Why did Gandhiji ask people to use Khadi?
+
+Ans-The rough hand woven cloth is called Khadi.Gandhiji asked people to stop using cloth made in England and use Khadi. According to him India can save crores of rupees in a
+year. Not only that but can generate employment opportunities for Indians.
+
+9.When did India finally become independent? 
+
+Ans-After centuries of foreign rule and years of struggle, India finally became an Independent country on 15th August 1947.
+
+
+

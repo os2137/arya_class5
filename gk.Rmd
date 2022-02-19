@@ -1,0 +1,92 @@
+---
+title: "gk"
+subtitle: "⚔<br/>with xaringan"
+author: "Onkar Singh"
+institute: "Shri Ram Global School"
+date: "2021/12/03 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+???
+
+Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+
+---
+class: center, middle
+
+# General Knowledge
+
+
+---
+
+# State and Capitals
+
+
+---
+
+# Country and Capitals
+
+
+## Asia
+
+## Africa
+
+## Europe
+
+## North America
+
+## Latin America
+
+
+---
+
+Exam Schedule Term 2
+
+
+
+English 6 December 
+paroma.s@srgsomr.og
+neha@srgsomr.org
+
+ICT 7 December 
+Subject teacher: lipi@srgsomr.org
+paroma.s@srgsomr.og
+
+8th December 2021
+Language 2 Hindi
+Subject teacher: nidhi@srgsomr.org
+
+9th December
+Analytical Reseasoning
+10:15am to 11.15am
+Meeting Id: 6931720881
+
+10th December 
+Maths
+Subject teacher: nidhi.a@srgsomr.org
+class teacher: paroma.s@srgsomr.org
+
+13th December
+Social Studies
+subject teacher: lopa@srgsomr.org
+
+14th December 
+Science
+subject and class teacher: paroma.s@srgs.org
+
+
+
+
+
