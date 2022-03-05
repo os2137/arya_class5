@@ -16,7 +16,7 @@ class: center, middle, inverse, title-slide
 ## Arya Singh
 ### Onkar Singh
 ### Shri Ram Global School
-### 2021/11/20 (updated: 2022-02-19)
+### 2021/11/20 (updated: 2022-02-20)
 
 ---
 
@@ -118,24 +118,64 @@ New Maths Time
 
 ---
 class: inverse, center, middle
-Chapter 6: Decimal Numbers
+## Chapter 6: Decimal Numbers
 
 ---
 class: inverse, center, middle
-Chapter 8:  Geometry
+## Chapter 8:  Geometry
 
 ---
 class: inverse, center, middle
-Chapter 9: Measurements
+## Chapter 9: Measurements
 
 ---
 class: inverse, center, middle
-Chapter 10: Perimeter, Area and Volume
+## Chapter 10: Perimeter, Area and Volume
 ---
 class: inverse, center, middle
-Chapter 13: Graphs
+## Chapter 13: Graphs       
+
+---
 
 
+```r
+library(tidyverse)
+```
+
+
+
+```r
+data &lt;- tibble(name = c('Arnav', 'Ishan', 'Devika', 'Lata'), 
+                  number_of_story_books = c(8, 10, 4, 16))
+```
+
+
+---
+
+```r
+data %&gt;% 
+  ggplot(aes(x = name, y = number_of_story_books, fill = name)) +
+  geom_col() +
+  labs(title = 'Number of story books read', 
+       x = '', 
+       y = 'Number of story books') 
+```
+
+![](math_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
+
+---
+- what is the title of the graph
+
+- what does the vertical scale show? 
+
+- What is the scale used in the vertical scale? 
+1cm = 2 books
+
+- who read the most number of books
+
+- who read the least number of books
+
+- How many more books did Lata read than Devika
 
 
     </textarea>
