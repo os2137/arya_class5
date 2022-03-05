@@ -937,20 +937,111 @@ class: inverse, center, middle
   
   c. a child is bleeding from the nose? 
   
-]<!-- end of panel-->
+]
 
-.panel[.panel-name[Answers 1-2]
-XXXXXXXXXXXX
-]<!-- end of panel-->
+.panel[.panel-name[Answers 1]
+
+**Answer 1.**
+
+Fire accidents may be avoided by being vigilant when around fire or inflammable 
+material.
+Some ways to be careful are-
+    
+    1) Avoid wearing nylon and polyester clothes while working in the kitchen 
+        or lighting fireworks
+    
+    2) Keep gas cylinder valve closed when not in use 
+    
+    3) Have a well ventilated kitchen
+    
+    4) Do not play with matchsticks, lighters and inflammable materials 
+    
+    5) Keep fire extinguishers handy in areas where fire is being used 
+
+]
+
+.panel[.panel-name[Answers 2]
+
+Answer 2. 
+
+1.**Small Fire**: 
+
+                  Call an adult 
+                  
+                  Use a fire extinguisher
+                  
+                  Call the local fire station
+                  
+                  Call 101
+2.**Person on fire**: Wrap in a blanket and make him/her roll in the ground 
+
+3.**Paper or wood fire**: Use water
+
+4.**Electrical fires**: Foam extinguisher/Sand  in the guidance of an adult 
+
+5.**Burning kerosene/petrol/cooking oil**: Foam extinguisher in the guidance of an adult
+
+]
+
 
 .panel[.panel-name[Answers 3-4]
-XXXXXXXXXXXX
-]<!-- end of panel-->
 
-.panel[.panel-name[Answer 5]
-XXXXXXXXXXX
-]<!-- end of panel-->
 
+**Answer 3.**
+
+Soap and water remove dust in debris from a wound. If the soap is antiseptic,it also removes germs from the wound thereby preventing germs. 
+
+
+** Answer 4. **
+
+**For minor burns:** 
+
+    Hold the burn area under running cold water for a few minutes.
+    Place a cool wet cloth on the top of the burnt area.      
+**For severe burns:** 
+
+    Keep the burn area under cold running water
+    Do not break blisters that form
+    Cover the area with cool wet clothes. 
+    Consult the doctor
+    Take the patient to the hospital 
+    Note: In both cases doctor should be consulted. 
+
+
+
+
+]
+
+.panel[.panel-name[Ans5 a, b]
+
+
+
+Answer 5. 
+
+a. a person has fallen down and broken and broken an ankle
+
+    Do not move the injured person. Place an icepack on the injured part to bring
+    down   the swelling. Use a split to make sure that the broken bone does not
+    shift. See a   doctor as soon as possible. 
+    
+b. a person has been bitten by a snake? 
+
+    Do not allow the victim to move as this will speed up the spread of venom
+    through the body. Let the patient lie down in such a way that the bitten part 
+    is below below the level of the heart. Treat the bite like a sprain, avoid
+    movement.Arrange for a doctor or hostipal visit as soon as possible. 
+  
+
+ 
+]
+.panel[.panel-name[5c]
+
+c. a child is bleeding from the nose? 
+ 
+     Ask the patient to lean forward slightly and breathe through the mouth. 
+     Pinch the nose between the thumb and forefinger for about 10 minutes or 
+     until the bleeding stops.
+]
 ]
 
 ---
@@ -992,3 +1083,12 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 # Chapter 15: Measurement: Speed and Density
+
+
+
+--- 
+references rmarkdown
+
+[Markdown: continue numbered list](https://stackoverflow.com/questions/18088955/markdown-continue-numbered-list)
+
+[R Markdown Presentation: How to continue a numbered list across a slide?](https://stackoverflow.com/questions/51984827/r-markdown-presentation-how-to-continue-a-numbered-list-across-a-slide)
