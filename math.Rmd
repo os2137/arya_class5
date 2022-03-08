@@ -121,6 +121,19 @@ class: inverse, center, middle
 ## Chapter 9: Measurements
 
 ---
+**Bigger to smaller units**
+
+    cm to mm multiply by 10
+    m to cm multiply by 100
+    km to m multiply by 1000
+
+**Smaller to bigger units**
+
+      mm to cm divide by 10 
+      cm to m divide by 100 
+      m to km divide by 100
+    
+---
 class: inverse, center, middle
 ## Chapter 10: Perimeter, Area and Volume
 ---
